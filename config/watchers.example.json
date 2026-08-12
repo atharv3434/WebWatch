@@ -1,0 +1,17 @@
+{
+  "stateDir": "state",
+  "watchers": [
+    {
+      "name": "example-heading",
+      "url": "https://example.com",
+      "selector": "h1",
+      "timeoutMs": 15000
+    },
+    {
+      "name": "example-with-webhook",
+      "url": "https://example.com",
+      "selector": "p",
+      "webhookUrl": "https://your-webhook-endpoint.example.com/notify"
+    }
+  ]
+}

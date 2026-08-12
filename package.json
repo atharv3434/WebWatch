@@ -1,0 +1,28 @@
+{
+  "name": "site-monitor",
+  "version": "1.0.0",
+  "description": "Monitor web pages for content changes via CSS selectors, with diffing and notifications",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "site-monitor": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js run",
+    "watch": "node src/cli.js watch",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "commander": "^15.0.0",
+    "diff": "^9.0.0",
+    "node-cron": "^4.6.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}

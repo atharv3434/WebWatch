@@ -1,0 +1,12 @@
+node_modules/
+npm-debug.log*
+
+# runtime state (per-watcher last-known content/hash)
+state/*.json
+!state/.gitkeep
+
+# real config (may contain webhook URLs); keep only the example checked in
+config/watchers.json
+
+.DS_Store
+.env
