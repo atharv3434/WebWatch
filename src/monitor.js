@@ -2,6 +2,7 @@
  * Core orchestration: fetch a watcher's page, extract content, compare
  * against the last-known state, and report whether (and how) it changed.
  */
+
 import { fetchHtml } from './fetcher.js';
 import { extractContent } from './extractor.js';
 import { hashContent } from './hasher.js';
