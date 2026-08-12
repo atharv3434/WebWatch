@@ -3,6 +3,7 @@
  * CLI for site-monitor: `run` checks all watchers once, `watch` repeats on
  * an interval, `list` shows configured watchers and their last-checked state.
  */
+
 import { Command } from 'commander';
 import cron from 'node-cron';
 import { loadConfig, ConfigError } from './config.js';
