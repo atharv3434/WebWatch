@@ -1,6 +1,7 @@
 /**
  * Extracts content from HTML using a CSS selector, via cheerio.
  */
+
 import * as cheerio from 'cheerio';
 
 export class ExtractionError extends Error {

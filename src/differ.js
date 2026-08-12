@@ -4,6 +4,7 @@
  * logic — line-level diffing has enough edge cases (empty inputs, trailing
  * newlines, etc.) that it's not worth reimplementing.
  */
+
 import { diffLines } from 'diff';
 
 /**
