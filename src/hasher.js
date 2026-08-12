@@ -3,6 +3,7 @@
  * faster than diffing on every check, so we only run the (more expensive,
  * more useful) text diff when the hash actually indicates a change.
  */
+
 import { createHash } from 'node:crypto';
 
 /**

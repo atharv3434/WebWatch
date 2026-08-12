@@ -2,6 +2,7 @@
  * Library entry point — import these directly if you want to use
  * site-monitor's pieces programmatically instead of via the CLI.
  */
+
 export { fetchHtml, FetchError } from './fetcher.js';
 export { extractContent, ExtractionError } from './extractor.js';
 export { hashContent } from './hasher.js';
